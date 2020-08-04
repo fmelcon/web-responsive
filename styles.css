@@ -91,6 +91,12 @@ body{
     display:flex;
 }
 
+.caja-logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
 .logos{
     justify-content: center;
     text-align: center;
