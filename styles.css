@@ -140,7 +140,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color: rgb(216, 212, 212);
-    margin:10px;
+    margin-bottom: 20px;
 }
 
 .galeria {
@@ -148,8 +148,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     text-align:  center;
-    padding: 40px;
-    background-color: black;
+    padding-bottom: 20px;
 }
 
 .galeria img {
@@ -166,7 +165,7 @@ body{
 }
 
 .caja{
-    height: 430px;
+    height: 410px;
     background-color: black;
 }
 
@@ -377,7 +376,6 @@ body{
     width: 100%;
     max-width: 1200px;
     margin:0 auto;
-    
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -389,3 +387,4 @@ body{
 
 .designby a{
     color: #47c2b5;
+}
