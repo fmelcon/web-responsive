@@ -14,8 +14,8 @@ body{
 }
 
 .container{
-    max-width: 1200px;
     width: 100%;
+    max-width: 1200px;
     margin:0 auto;
     min-height: 300px;
 
@@ -92,6 +92,7 @@ body{
 }
 
 .caja-logos{
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
@@ -162,7 +163,6 @@ body{
     max-width: 1200px;
     color: gray;
     align-items: center;
-    text-align: center;
     grid-template-columns: 1fr 1fr;
     display: grid;
     margin: 0 auto;
@@ -318,6 +318,7 @@ body{
 }
 
 .contenedorfooter{
+    padding: 20px;
     color: #fff;
     display: flex;
     justify-content: space-around;
@@ -334,4 +335,40 @@ body{
 .ellusive{
     width: 50%;
     text-align: left;
+}
+
+.ellusive p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.line{
+    width: 50px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.contlist{
+    
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.contlist li{
+    padding-top: 5px;
+    list-style: none;
+}
+
+.designby{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.designby p{
+    color: rgb(123, 126, 125);
 }
