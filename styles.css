@@ -50,10 +50,12 @@ body{
 }
 
 .headerbg{
+    width: 1200px;
     display: grid;
     place-items: center;
     background-image: linear-gradient(to top, rgba(226, 211, 206, 0.5) 0%, rgba(11, 69, 126, 0.5) 100%), url(./img/header.jpg);
-    height: 50vh;
+    height: 60vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -61,7 +63,7 @@ body{
 }
 
 .textheader{
-    width: 80%;
+    width: 65%;
 }
 
 .textheader h1, h3 {
