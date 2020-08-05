@@ -49,6 +49,18 @@ body{
     text-decoration: none;
 }
 
+@keyframes moverArriba{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
 .headerbg{
     display: grid;
     place-items: center;
@@ -71,6 +83,7 @@ body{
     border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.295);
     margin-bottom: 20px;
+    animation: moverArriba 1.5s ease-in;
 }
 
 .botonprimario{
