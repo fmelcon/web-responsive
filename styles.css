@@ -316,3 +316,22 @@ body{
     width: 100%;
     margin:0 auto;
 }
+
+.contenedorfooter{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.where{
+    width: 40%;
+}
+
+#nosotros{
+    background-color: rgba(8, 10, 10, 0.89);
+}
+
+.ellusive{
+    width: 50%;
+    text-align: left;
+}
