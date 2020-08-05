@@ -25,6 +25,8 @@ body{
 }
 
 .contenedortitulo{
+    margin: 0 auto;
+    width: 1200px;
     display:flex;
     justify-content: space-around;
 }
@@ -73,7 +75,7 @@ body{
 }
 
 .textheader{
-    width: 65%;
+    width: 55%;
 }
 
 .textheader h1, h3 {
@@ -249,7 +251,7 @@ body{
 }
 
 .mtitulo span{
-    color: rgb(52, 184, 184);
+    color: #47c2b5;
 }
 
 .teamtitle{
@@ -330,7 +332,7 @@ body{
 }
 
 .contenedorfooter{
-    padding: 20px;
+    padding-top: 20px;
     color: #fff;
     display: flex;
     justify-content: space-around;
@@ -356,12 +358,11 @@ body{
 
 .line{
     width: 50px;
-    background-color: aqua;
+    background-color: #47c2b5;
     margin-bottom: 20px;
 }
 
 .contlist{
-    
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -382,5 +383,9 @@ body{
     justify-content: space-between;
 }
 .designby p{
+    padding: 10px;
     color: rgb(123, 126, 125);
 }
+
+.designby a{
+    color: #47c2b5;
